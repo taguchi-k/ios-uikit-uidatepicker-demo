@@ -1,8 +1,8 @@
-# UILabel
+# UIDatePicker
 
 ## 概要
-UILabelは、テキストを表示するために利用します。
-
+UIDatePickerは、DatePickerを操作するために利用します。<br>
+ピッカーを使用して、暦日、時間値、または時間間隔のいずれかをユーザーが入力できるようにします。
 
 ## 関連クラス
 UIControl, NSCoding
