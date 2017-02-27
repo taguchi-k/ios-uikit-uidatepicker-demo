@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F6009A41E6450DD002FC75E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6009A31E6450DD002FC75E /* AppDelegate.swift */; };
+		9F6009A61E6450DD002FC75E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6009A51E6450DD002FC75E /* ViewController.swift */; };
+		9F6009A91E6450DD002FC75E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6009A71E6450DD002FC75E /* Main.storyboard */; };
+		9F6009AB1E6450DD002FC75E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6009AA1E6450DD002FC75E /* Assets.xcassets */; };
+		9F6009AE1E6450DD002FC75E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6009AC1E6450DD002FC75E /* LaunchScreen.storyboard */; };
+		9F6009B91E6450DE002FC75E /* ios_uikit_uidatepicker_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6009B81E6450DE002FC75E /* ios_uikit_uidatepicker_demoTests.swift */; };
+		9F6009C41E6450DE002FC75E /* ios_uikit_uidatepicker_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6009C31E6450DE002FC75E /* ios_uikit_uidatepicker_demoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F6009B51E6450DE002FC75E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6009981E6450DD002FC75E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F60099F1E6450DD002FC75E;
+			remoteInfo = "ios-uikit-uidatepicker-demo";
+		};
+		9F6009C01E6450DE002FC75E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F6009981E6450DD002FC75E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F60099F1E6450DD002FC75E;
+			remoteInfo = "ios-uikit-uidatepicker-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F6009A01E6450DD002FC75E /* ios-uikit-uidatepicker-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-uikit-uidatepicker-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6009A31E6450DD002FC75E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F6009A51E6450DD002FC75E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F6009A81E6450DD002FC75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F6009AA1E6450DD002FC75E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F6009AD1E6450DD002FC75E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F6009AF1E6450DD002FC75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6009B41E6450DE002FC75E /* ios-uikit-uidatepicker-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-uikit-uidatepicker-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6009B81E6450DE002FC75E /* ios_uikit_uidatepicker_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_uikit_uidatepicker_demoTests.swift; sourceTree = "<group>"; };
+		9F6009BA1E6450DE002FC75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6009BF1E6450DE002FC75E /* ios-uikit-uidatepicker-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-uikit-uidatepicker-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F6009C31E6450DE002FC75E /* ios_uikit_uidatepicker_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_uikit_uidatepicker_demoUITests.swift; sourceTree = "<group>"; };
+		9F6009C51E6450DE002FC75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F60099D1E6450DD002FC75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6009B11E6450DE002FC75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6009BC1E6450DE002FC75E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F6009971E6450DD002FC75E = {
+			isa = PBXGroup;
+			children = (
+				9F6009A21E6450DD002FC75E /* ios-uikit-uidatepicker-demo */,
+				9F6009B71E6450DE002FC75E /* ios-uikit-uidatepicker-demoTests */,
+				9F6009C21E6450DE002FC75E /* ios-uikit-uidatepicker-demoUITests */,
+				9F6009A11E6450DD002FC75E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F6009A11E6450DD002FC75E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F6009A01E6450DD002FC75E /* ios-uikit-uidatepicker-demo.app */,
+				9F6009B41E6450DE002FC75E /* ios-uikit-uidatepicker-demoTests.xctest */,
+				9F6009BF1E6450DE002FC75E /* ios-uikit-uidatepicker-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F6009A21E6450DD002FC75E /* ios-uikit-uidatepicker-demo */ = {
+			isa = PBXGroup;
+			children = (
+				9F6009A31E6450DD002FC75E /* AppDelegate.swift */,
+				9F6009A51E6450DD002FC75E /* ViewController.swift */,
+				9F6009A71E6450DD002FC75E /* Main.storyboard */,
+				9F6009AA1E6450DD002FC75E /* Assets.xcassets */,
+				9F6009AC1E6450DD002FC75E /* LaunchScreen.storyboard */,
+				9F6009AF1E6450DD002FC75E /* Info.plist */,
+			);
+			path = "ios-uikit-uidatepicker-demo";
+			sourceTree = "<group>";
+		};
+		9F6009B71E6450DE002FC75E /* ios-uikit-uidatepicker-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6009B81E6450DE002FC75E /* ios_uikit_uidatepicker_demoTests.swift */,
+				9F6009BA1E6450DE002FC75E /* Info.plist */,
+			);
+			path = "ios-uikit-uidatepicker-demoTests";
+			sourceTree = "<group>";
+		};
+		9F6009C21E6450DE002FC75E /* ios-uikit-uidatepicker-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F6009C31E6450DE002FC75E /* ios_uikit_uidatepicker_demoUITests.swift */,
+				9F6009C51E6450DE002FC75E /* Info.plist */,
+			);
+			path = "ios-uikit-uidatepicker-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F60099F1E6450DD002FC75E /* ios-uikit-uidatepicker-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6009C81E6450DE002FC75E /* Build configuration list for PBXNativeTarget "ios-uikit-uidatepicker-demo" */;
+			buildPhases = (
+				9F60099C1E6450DD002FC75E /* Sources */,
+				9F60099D1E6450DD002FC75E /* Frameworks */,
+				9F60099E1E6450DD002FC75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-uikit-uidatepicker-demo";
+			productName = "ios-uikit-uidatepicker-demo";
+			productReference = 9F6009A01E6450DD002FC75E /* ios-uikit-uidatepicker-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F6009B31E6450DE002FC75E /* ios-uikit-uidatepicker-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6009CB1E6450DE002FC75E /* Build configuration list for PBXNativeTarget "ios-uikit-uidatepicker-demoTests" */;
+			buildPhases = (
+				9F6009B01E6450DE002FC75E /* Sources */,
+				9F6009B11E6450DE002FC75E /* Frameworks */,
+				9F6009B21E6450DE002FC75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6009B61E6450DE002FC75E /* PBXTargetDependency */,
+			);
+			name = "ios-uikit-uidatepicker-demoTests";
+			productName = "ios-uikit-uidatepicker-demoTests";
+			productReference = 9F6009B41E6450DE002FC75E /* ios-uikit-uidatepicker-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F6009BE1E6450DE002FC75E /* ios-uikit-uidatepicker-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F6009CE1E6450DE002FC75E /* Build configuration list for PBXNativeTarget "ios-uikit-uidatepicker-demoUITests" */;
+			buildPhases = (
+				9F6009BB1E6450DE002FC75E /* Sources */,
+				9F6009BC1E6450DE002FC75E /* Frameworks */,
+				9F6009BD1E6450DE002FC75E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F6009C11E6450DE002FC75E /* PBXTargetDependency */,
+			);
+			name = "ios-uikit-uidatepicker-demoUITests";
+			productName = "ios-uikit-uidatepicker-demoUITests";
+			productReference = 9F6009BF1E6450DE002FC75E /* ios-uikit-uidatepicker-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F6009981E6450DD002FC75E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = k_moto;
+				TargetAttributes = {
+					9F60099F1E6450DD002FC75E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					9F6009B31E6450DE002FC75E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F60099F1E6450DD002FC75E;
+					};
+					9F6009BE1E6450DE002FC75E = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F60099F1E6450DD002FC75E;
+					};
+				};
+			};
+			buildConfigurationList = 9F60099B1E6450DD002FC75E /* Build configuration list for PBXProject "ios-uikit-uidatepicker-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F6009971E6450DD002FC75E;
+			productRefGroup = 9F6009A11E6450DD002FC75E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F60099F1E6450DD002FC75E /* ios-uikit-uidatepicker-demo */,
+				9F6009B31E6450DE002FC75E /* ios-uikit-uidatepicker-demoTests */,
+				9F6009BE1E6450DE002FC75E /* ios-uikit-uidatepicker-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F60099E1E6450DD002FC75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6009AE1E6450DD002FC75E /* LaunchScreen.storyboard in Resources */,
+				9F6009AB1E6450DD002FC75E /* Assets.xcassets in Resources */,
+				9F6009A91E6450DD002FC75E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6009B21E6450DE002FC75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6009BD1E6450DE002FC75E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F60099C1E6450DD002FC75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6009A61E6450DD002FC75E /* ViewController.swift in Sources */,
+				9F6009A41E6450DD002FC75E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6009B01E6450DE002FC75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6009B91E6450DE002FC75E /* ios_uikit_uidatepicker_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6009BB1E6450DE002FC75E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6009C41E6450DE002FC75E /* ios_uikit_uidatepicker_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F6009B61E6450DE002FC75E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F60099F1E6450DD002FC75E /* ios-uikit-uidatepicker-demo */;
+			targetProxy = 9F6009B51E6450DE002FC75E /* PBXContainerItemProxy */;
+		};
+		9F6009C11E6450DE002FC75E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F60099F1E6450DD002FC75E /* ios-uikit-uidatepicker-demo */;
+			targetProxy = 9F6009C01E6450DE002FC75E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F6009A71E6450DD002FC75E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F6009A81E6450DD002FC75E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F6009AC1E6450DD002FC75E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F6009AD1E6450DD002FC75E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F6009C61E6450DE002FC75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F6009C71E6450DE002FC75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F6009C91E6450DE002FC75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-uikit-uidatepicker-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uidatepicker-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F6009CA1E6450DE002FC75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-uikit-uidatepicker-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uidatepicker-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F6009CC1E6450DE002FC75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-uikit-uidatepicker-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uidatepicker-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-uikit-uidatepicker-demo.app/ios-uikit-uidatepicker-demo";
+			};
+			name = Debug;
+		};
+		9F6009CD1E6450DE002FC75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-uikit-uidatepicker-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uidatepicker-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-uikit-uidatepicker-demo.app/ios-uikit-uidatepicker-demo";
+			};
+			name = Release;
+		};
+		9F6009CF1E6450DE002FC75E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-uikit-uidatepicker-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uidatepicker-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-uikit-uidatepicker-demo";
+			};
+			name = Debug;
+		};
+		9F6009D01E6450DE002FC75E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-uikit-uidatepicker-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uidatepicker-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-uikit-uidatepicker-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F60099B1E6450DD002FC75E /* Build configuration list for PBXProject "ios-uikit-uidatepicker-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6009C61E6450DE002FC75E /* Debug */,
+				9F6009C71E6450DE002FC75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F6009C81E6450DE002FC75E /* Build configuration list for PBXNativeTarget "ios-uikit-uidatepicker-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6009C91E6450DE002FC75E /* Debug */,
+				9F6009CA1E6450DE002FC75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F6009CB1E6450DE002FC75E /* Build configuration list for PBXNativeTarget "ios-uikit-uidatepicker-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6009CC1E6450DE002FC75E /* Debug */,
+				9F6009CD1E6450DE002FC75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F6009CE1E6450DE002FC75E /* Build configuration list for PBXNativeTarget "ios-uikit-uidatepicker-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F6009CF1E6450DE002FC75E /* Debug */,
+				9F6009D01E6450DE002FC75E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F6009981E6450DD002FC75E /* Project object */;
+}
