@@ -63,5 +63,24 @@ class ViewController: UIViewController {
         datePicker.setDate(date, animated: false)
     }
 
+    // MARK: - @IBAction
+
+    /// datePickerの値が変更されたら呼ばれる
+    @IBAction func didValueChanged(_ sender: UIDatePicker) {
+        print(createDateString(date: sender.date, calendar: sender.calendar))
+    }
+
+    // MARK: - 日時表示用メソッド
+
+    /// 引数から日時の文字列を返す
+    private func createDateString(date: Date, calendar: Calendar) -> String {
+
+        let dateFormater = DateFormatter()
+        dateFormater.locale = Locale(identifier: "ja_JP")
+        let weekdayIndex = calendar.component(.weekday, from: date) - 1
+        dateFormater.dateFormat = "M月d日 \(dateFormater.shortWeekdaySymbols[weekdayIndex]) H:mm"
+
+        return dateFormater.string(from: date)
+    }
 }
 
